@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'vazir';
+  src: url("../fonts/Vazir-Regular.eot") format("eot");
+  src: url("../fonts/Vazir-Regular.ttf") format("ttf");
+  src: url("../fonts/Vazir-Regular.woff") format("woff"); }
+
+@font-face {
+  font-family: 'yekan';
+  src: url("../fonts/YekanBakh-Medium.ttf") format("ttf");
+  src: url("../fonts/YekanBakh-Medium.eot") format("eot");
+  src: url("../fonts/YekanBakh-Medium.woff") format("woff"); }
+
+
+.text-primary {
+  color: #003e85 !important; }
+
+.text-secondary {
+  color: #5b9eeb !important; }
+
+.text-justify {
+  text-align: justify; }
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-family: "vazir";
+  scroll-behavior: smooth; }
+
+header {
+  max-height: 100vh; }
+
+i {
+  color: #5b9eeb;
+  font-size: 2rem;
+  background-color: #ececec;
+  padding: 0.5rem 1rem;
+  width: max-content;
+  border-radius: 10px;
+  transition: all 0.2s; }
+  i:hover {
+    color: #003e85; }
+
+.card {
+  transition: all 0.3s; }
+  .card ul li {
+    padding: 0.5rem; }
+  .card:hover {
+    background-color: #004166;
+    color: white; }
+
+#carouselExampleControls {
+  background-color: #003152; }
+  #carouselExampleControls img {
+    margin: 0 auto;
+    max-width: 80%;
+    border-radius: 7px; }
+
+.top {
+  background-color: #003152;
+  color: white; }
+
+.logo div {
+  padding: 1rem;
+  text-align: center; }
+
+footer div {
+  margin-right: -13px; }
+
+footer i {
+  background-color: white !important;
+  color: black !important;
+  font-size: 1.3rem;
+  padding: 0.5rem;
+  transition: all 0.3s; }
+  footer i:hover {
+    font-size: 1.1rem; }
